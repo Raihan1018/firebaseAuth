@@ -77,6 +77,8 @@ const Register = () => {
               </div>
 
               <button className="btn btn-neutral w-full mt-4">Register</button>
+              <span className="text-center text-gray-500">or login with</span>
+              <div className="divider"></div>
             </fieldset>
           </form>
           <div>
