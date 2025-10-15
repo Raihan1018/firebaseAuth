@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logout from "./Logout";
+import AuthState from "../components/AuthState";
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
         </Link>
       </div>
       <Logout />
+      <AuthState/>
     </div>
   );
 };

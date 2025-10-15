@@ -8,7 +8,6 @@ const Logout = () => {
     signOut(auth)
       .then(() => {
         toast.success("Logout successful ");
-        // Sign-out successful.
         console.log("log out done");
       })
       .catch((error) => {
